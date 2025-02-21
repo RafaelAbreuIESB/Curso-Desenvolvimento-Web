@@ -1,0 +1,65 @@
+<b></b> ou <strong></strong> = Negrito
+
+<i></i> ou <em></em> = Itálico
+
+<u></u> = underline
+
+<strike></strike> = risca o texto
+
+<br> = Quebra de texto
+
+<h1, h2, h3, h...></h1, h2, h3, h...> : Definir tamanho do cabeçalho
+
+<p></p> : define um parágrafo com espaçamento
+
+<hr> : Linha horizontal para separar conteúdos
+
+<ul type=""></ul> : Lista não ordenada (pode se utilizar o type para escolher o modelo da lista)
+<!--circle, square, disc-->
+<li></li> : Cria os itens da lista
+
+<ol type=""></ol> : Lista ordenada (pode se utilizar o type para escolher o modelo da lista) <!-- 1, A, a, I, i -->
+<li></li> : Cria os itens da lista
+<table></table> : Para criar tabelas
+<tr></tr> : Para criar linhas da tabela
+<td colspan=""></td>: Células da tabela <!--Colspan é utilizado para juntar mais de uma célula da tabela Horizontal -->
+<td rowspan=""></td> <!--Rowspan é utilizado para juntar mais de uma linha da tabela Vertical-->
+<th></th> : Título da tabela
+
+<!-- --> Para fazer comentários
+
+Estrutura HTML:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title> : Especificar título da página web
+    <meta charset="utf-8"> : Para manter acentos e etc. (SC:Self Closing)
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+<img src="" width="" height=""> : Para colocar imagens no site
+<!--Para colocar imagens de pasta fora da pasta das imgs deve-se colocar ..\raiz do arquivo-->
+<!--pode colocar em src o local da foto salva no pc, ou utilizando imagens da web por link-->
+<!--Width : Largura e Height : Altura-->
+
+<a href=""></a> : Para fazer referências a links externos e/ou para outras páginas html etc.
+<!--Quando não se define link no href, ele faz menção a própria página-->
+
+<form action=""></form> : Para Criar Formulário
+<input type="text" name="" id=""> : Para criar caixas de formulário para colocar
+<!--Existe vários tipos de type, escolha o que for mais adequado-->
+<select name="" id="">
+    <option value=""></option>
+</select>
+: Faz uma caixa de Seleção para escolher uma das alternativas
+<!--O Option é onde você coloca as alternativas para escolha e conseguir reter esta informação-->
+<textarea name="" id=""></textarea> : Faz uma caixa de texto para escrever
+
+<!--Para caracteres especiais procurar no site html entities-->
