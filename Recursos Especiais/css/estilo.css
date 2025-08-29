@@ -5,25 +5,65 @@
     box-sizing: border-box; --> Ajuda nos layouts. Também precisa dos prefixos
 }*/
 
-#caixa {
+/*#caixa {
     width: 300px;
     height: 300px;
     padding: 8px;
     margin: 20px;
     background: #009670;
-    box-shadow: 20px 20px 2px 20px black; /*Faz uma sombra na caixa de texto, sendo que o 4º é o espalhamento da sombra, aumentando seu tamanho*/
-    /*background: url("../img/camera.png");*/
-    /*  background: linear-gradient(to top, red, green); --> Coloca cores grandientes como background, escolhendo as cores ou os hexadecimais e a direção. Existe várias opções, ver no site*/
+    box-shadow: 20px 20px 2px 20px black; --> Faz uma sombra na caixa de texto, sendo que o 4º é o espalhamento da sombra, aumentando seu tamanho
+    background: url("../img/camera.png");
+    background: linear-gradient(to top, red, green); --> Coloca cores grandientes como background, escolhendo as cores ou os hexadecimais e a direção. Existe várias opções, ver no site
 
-}
+}*/
 
-#caixa h1 {
+/*#caixa h1 {
     color: white;
     text-shadow: 20px 20px 5px black;
-    /* Este é o comando que faz a sombra, sendo o primeiro na horizontal e o segunda na vertical, e o terceiro é um borrado na sombra e o quarto é a cor da sombra*/
+     Este é o comando que faz a sombra, sendo o primeiro na horizontal e o segunda na vertical, e o terceiro é um borrado na sombra e o quarto é a cor da sombra
+}*/
+
+/*#caixa h1 {
+    background: rgba(255, 255, 255, 0.5)
+        --> Utilizando o rgba, colocamos o código hexadecimal transformado em rgb e definimos a opacidade no final
+}*/
+
+/*ANIMAÇÃO
+
+@keyframes animacao-caixa { --> Propriedade para fazer a animação, também pede prefixos
+    from{ --> de onde inicia
+        background: red;
+    }
+    to{ --> para onde vai
+        background: green;
+    } 
 }
 
-#caixa h1 {
-    background: rgba(255, 255, 255, 0.5)
-        /*Utilizando o rgba, colocamos o código hexadecimal transformado em rgb e definimos a opacidade no final*/
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa; --> adiciiona o nome da keyframe, também precisa de prefixos
+    animation-duration: 5s; --> adiciona o tempo que irá durar a animação, também precisa de prefixos
+    animation-delay: 3s; --> adiciona o tempo que demorará para inciar, também precisa de prefixos
+    animation-iteration-count: 2; --> Quantas vezes vai ser executado, também precisa de prefixos
+    animation-direction: alternate; --> a direção que será executada, também precisa de prefixos
+
+    animation: animacao-caixa 5s 3s 2 alternate; --> pode ser feito dessa forma, seguindo a ordem a cima, também precisa de prefixos
 }
+*/
+
+/*Transições
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: orange;
+
+}
+
+#caixa:hover{
+    width: 300px;
+    background: yellow;
+    transition: width 3s, background 3s ; --> Só colocar o tempo e quais querem para transição ou algumas ou todas(all) Precisa de prefixo
+}
+*/
