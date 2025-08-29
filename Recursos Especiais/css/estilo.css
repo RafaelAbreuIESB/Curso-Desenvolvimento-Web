@@ -6,6 +6,7 @@
     -webkit-border-radius: 10px; /*Para arredontar versões mais antigas dos navegadores. Prefixos*/
     -moz-border-radius: 10 px; /*Para arredontar versões mais antigas dos navegadores. Prefixos*/
     border-radius: 10px; /*Arredondar as caixas, Cantos Arredondados */ 
+    box-sizing: border-box; /*Ajuda nos layouts. Também precisa dos prefixos*/
 }
 
 .arredondamento{
