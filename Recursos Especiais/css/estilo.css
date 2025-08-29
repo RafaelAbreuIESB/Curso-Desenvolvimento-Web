@@ -1,0 +1,13 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    -webkit-border-radius: 10px; /*Para arredontar versões mais antigas dos navegadores. Prefixos*/
+    -moz-border-radius: 10 px; /*Para arredontar versões mais antigas dos navegadores. Prefixos*/
+    border-radius: 10px; /*Arredondar as caixas, Cantos Arredondados */ 
+}
+
+.arredondamento{
+    border-radius: 150px; /*Arredondar as caixas, Cantos Arredondados */ 
+}
