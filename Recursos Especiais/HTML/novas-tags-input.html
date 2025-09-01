@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Novas Tags de Input</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+
+</head>
+
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required autofocus>
+        <!--A primeira coisa que vai para ser preenchido primeiramente com o autofocus-->
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <!--Com o Type email, ele obrigatoriamente tem que colocar um endereço de email e com o required se torna obrigatório preencher ele-->
+        <br><br>
+
+        <label for="numero">Número</label>
+        <input type="number" id="número" min="5" max="10" step="5">
+        <!--Com o type number se torna obrigatório ser só número e o mínimo e o máximo define o número como deve ser preenchido e o step faz como um incremento-->
+        <br><br>
+
+        <label for="url">URL</label>
+        <input type="url" id="url"
+            placeholder="ex: http://www..."><!--Com o type URL se torna obrigatório uma URL com http://-->
+        <br><br>
+
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa"> <!--Utilizado para fazer uma pesquisa o type search -->
+        <br><br>
+
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="3" value="2">
+        <!--Type range é um marcador, utilizando min e max para definir quantos pontos pode ser utilizado e o value é o valor inicial -->
+        <br><br>
+
+        <label for="data">Data</label>
+        <input type="date" id="data"> <!--Type date para escolher uma data-->
+        <br><br>
+
+        <label for="cor">Cor</label>
+        <input type="color" id="cor"> <!--type color para escolher a cor para customização-->
+
+        <input type="submit" name="" value="Enviar">
+    </form>
+</body>
+
+</html>
