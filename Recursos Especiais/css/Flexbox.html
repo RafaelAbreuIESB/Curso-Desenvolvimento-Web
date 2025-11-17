@@ -10,20 +10,26 @@
             height: 400px;
             display: flex;
             /*Deixa um item ao lado do outro(flex itens), exibindo uma espécie de container onde cada item pode ser estilizado separadamente*/
-            flex-direction: row;
+            /* flex-direction: row;
             /* row | row-reverse | column | column-reverse */
-            flex-wrap: nowrap;
+            /*flex-wrap: nowrap;
             /* nowrap (Não vai existir quebras de container, sendo colocados conforme cabe diminuindo o seu tamanho dos itens) 
             | wrap (Só vai colocar o que cabe, quebrando para próxima linha)| wrap-reverse */
-            justify-content: center ; /* flex-start | flex-end | center | space-between | space-around | Posição onde irão ficar*/
-            align-items: baseline ; /*stretch | center | flex-start | flex-end | baseline | Alinhamento de Texto */
+            /*justify-content: center ; /* flex-start | flex-end | center | space-between | space-around | Posição onde irão ficar*/
+            /*align-items: baseline ; /*stretch | center | flex-start | flex-end | baseline | Alinhamento de Texto */
         }
 
         .item {
+            width: 200px;
+            height: 200px;
             background: white;
             border: 1px solid gray;
-
         }
+
+        /*  flex-grow: 1; / Define a proporção de espaço ocupado por um item
+            order: 1; / Disposição que aparecerá todo o conteudo de flexbox
+            flex-shrink: 2 / Define a proporção a capacidade da redução de tamanho do item 
+            flex-basis: auto ou qualquer tamanho / Indica o tamanho inicial do flex item antes da distribuição do espaço restante.*/
     </style>
 </head>
 
@@ -31,7 +37,7 @@
 
     <h1>FlexBox</h1>
     <div id="conteudo">
-        <div class="item">01</div>
+        <div class="item ">01</div>
         <div class="item">02</div>
         <div class="item">03</div>
         <div class="item">04</div>
